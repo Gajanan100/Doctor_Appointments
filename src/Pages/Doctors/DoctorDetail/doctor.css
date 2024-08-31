@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl mb-4;
+}
+
+h2 {
+  @apply text-3xl mb-2;
+}
+
+h3 {
+  @apply text-2xl mb-2;
+}
+
+h4 {
+  @apply text-xl mb-2;
+}
+
+h5 {
+  @apply text-lg mb-2;
+}
+
+h6 {
+  @apply text-base mb-2;
+}
+
+p {
+  @apply mb-4;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-200 italic my-8 pl-8;
+}
+
+img {
+  @apply my-8 object-cover w-full;
+}
+
+
+/* .previous slide
+{
+    margin-left: 0 !important;
+}
+.next slide
+{
+  margin-left: 0 !important;
+}
+.control-arrow 
+{
+    width: 40px;
+    height: 35px;
+    background: #656565a9 !important;
+    margin: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.react-multiple-carousel__arrow react-multiple-carousel__arrow--left 
+{
+   margin-right: 8px !important;
+   border-top-right-radius: 10% ;
+   border-bottom-right-radius: 10% ;
+}
+.react-multiple-carousel__arrow react-multiple-carousel__arrow--right{
+   margin-right: 2px !important;
+   border-top-left-radius: 10% ;
+   border-bottom-left-radius: 10% ;
+} */
+.react-multiple-carousel__arrow--left {
+  left: -20px !important;
+  min-height:10px !important;
+  width: 40px;
+  height: 35px;
+  background: #656565a9 !important;
+  z-index: 1 !important;
+  margin: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-multiple-carousel__arrow--right
+{
+  right: -20px !important;
+  width: 40px;
+  z-index: 1 !important;
+  height: 35px;
+  background: #656565a9 !important;
+  margin: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
